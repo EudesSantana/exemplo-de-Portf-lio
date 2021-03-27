@@ -14,17 +14,22 @@
 }
 
 .menu{
-    filter:alpha(opacity=50);     opacity: 0.5;     -moz-opacity:0.5;     -webkit-opacity:0.5;
+    opacity: 0.5;     -moz-opacity:0.5;     -webkit-opacity:0.5;
     position: fixed;
     background: gray;
-}
-.blue{
-    color: blue;
-    float:right;
-    
+    hover: opacity: 0;
 }
 
-.Alfa{
+.menu:hover{
+    opacity: 1;     -moz-opacity:1;     -webkit-opacity:1;
+}
+
+.blue{
+    color: blue;
+    float:right;  
+}
+
+.fundo-menu{
     background: gray;
     height: 74px;
     width: 100%;
@@ -35,3 +40,4 @@ float: right;
 margin-left: 900px  ;
 background: gray;
 }
+
